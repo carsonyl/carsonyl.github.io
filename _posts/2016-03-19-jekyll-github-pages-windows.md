@@ -23,11 +23,12 @@ C:\> gem install github-pages
 
 If you've already cloned the repository for your GitHub Pages site, and haven't already set up Jekyll in it, `cd` into the directory and initialize Jekyll with `jekyll new . --force`.
 
-`jekyll serve` will serve your site and automatically detect changes as you go. Really old versions of Jekyll need a separate gem to detect file changes on Windows.
+`jekyll serve` will serve your site and automatically detect changes as you go. Really old versions of Jekyll need a separate gem to detect file changes on Windows. Check the [official docs] on Windows support.
 
 [Visual Studio Code] is a fairly good editor to use with Jekyll. It has syntax highlighting and preview for Markdown, too.
 
 [Jekyll]: https://jekyllrb.com/
 [GitHub Pages]: https://pages.github.com
 [chocolatey]: https://chocolatey.org
+[official docs]: https://jekyllrb.com/docs/windows/
 [Visual Studio Code]: https://code.visualstudio.com
