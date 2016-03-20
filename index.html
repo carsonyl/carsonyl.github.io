@@ -1,14 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Carson Lam</title>
-</head>
-<body>
-<h1>Carson Lam</h1>
-<p>Hi! My name's Carson Lam. I'm a Software Developer at <a href="https://safe.com">Safe Software</a>.</p>
+---
+layout: default
+---
 
-<p>I made <a href="http://transitdb.ca">TransitDB.ca</a>, 
-and <a href="https://play.google.com/store/apps/details?id=ca.transitdb.mobile.android">TransitDB Android</a>, 
-an app for offline TransLink transit schedules.</p>
-</body>
-</html>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
