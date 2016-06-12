@@ -19,7 +19,7 @@ except ValueError as e1:
     raise 
 ```
 
-You'd expect that this code would re-raise `ValueError`, and it does - on Python 3.
+You'd expect that this code would re-raise `ValueError`, and it does &mdash; on Python 3.
 On Python 2, it re-raises `TypeError` instead, despite it having been caught in the
 nested try/except block.
 
