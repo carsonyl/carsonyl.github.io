@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Secure bicycle parking at SkyTrain stations"
-categories: Transit, Cycling
+categories: Transit, Cycling, City
 ---
 
 TransLink offers **secure bicycle parking** at select SkyTrain stations.
