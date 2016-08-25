@@ -204,3 +204,12 @@ pre {
         }
     }
 }
+
+
+thead td {
+  padding-right:16px;
+  font-weight: bold;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
