@@ -4,7 +4,7 @@ title:  "HTTPS server for Python application, on Windows"
 categories: Python
 ---
 
-I found myself needing to serve some files over HTTPS while tinkering with some stuff.
+I found myself needing a quick-and-dirty way to serve some files over HTTPS while working on a project.
 The simplest way to do so in a pure-Python way is described in [this post from 2011](https://www.piware.de/2011/01/creating-an-https-server-in-python/).
 However, I'm on Windows and Python 3.5, and those instructions were written with Python 2 and Linux in mind.
 Naturally, things didn't quite work out, and I ended up using IIS with a reverse proxy config.
