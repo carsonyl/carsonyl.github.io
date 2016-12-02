@@ -4,15 +4,14 @@ title:  "I've read about those unexpected app suspensions—and then it happened
 categories: TransitDB, Android
 ---
 
-I publish TransitDB on the [Play Store](https://play.google.com/store/apps/details?id=ca.transitdb.mobile.android), [Amazon App Store](https://www.amazon.com/Carson-Lam-TransitDB-Vancouver/dp/B00RYZVCOW/), and [BlackBerry App World](https://appworld.blackberry.com/webstore/content/32009887/).
+I publish TransitDB on the [Play Store](https://play.google.com/store/apps/details?id=ca.transitdb.mobile.android), [Amazon App Store](https://www.amazon.com/Carson-Lam-TransitDB-Vancouver/dp/B00RYZVCOW/), and [BlackBerry App World](https://appworld.blackberry.com/webstore/content/32009887/). This evening, TransitDB was unexpectedly suspended from the Play Store. The following story all happened within a span of about 3 hours.
 
-The following story all happened within a span of about 3 hours, by my estimate.
-
-Today I submitted an update to the Play Store. Just some transit schedule changes. Went to private alpha, and then to 10% staged rollout. At that point, it was rejected for violating the Payments Policy.
+I submitted an update to the Play Store. Just some transit schedule changes. Went to private alpha, and then to 10% staged rollout. At that point, it was rejected for violating the Payments Policy.
 
 > **Policy Issue:** Payments
 >
 > Alternative payment mechanisms to Google Play’s in-app billing service are only permitted if the products purchased are to be used outside of the app. For example:
+>
 > * For physical goods or services, such as movie tickets, or a publication where the price also includes a hard copy subscription; or 
 > * For digital goods that may be downloaded to devices and used outside of the app, such as songs that can be played on other music players.
 >
